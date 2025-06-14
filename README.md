@@ -1,6 +1,6 @@
 # friday_fin
 
-![Friday vibes](assets/friday.png)
+![friday](friday.PNG)
 
 
 Copy the .css file and replace with your current CSS inputs.
