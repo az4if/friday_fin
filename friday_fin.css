@@ -22,7 +22,7 @@
 --rounding-circle: 100px;
 }
 
-/* Replace all green elements with blue */
+/* Elements with blue accent */
 .countIndicator, .playedIndicator,
 .btnPlay:hover, 
 .paper-icon-button-light:hover, 
