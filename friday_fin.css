@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap);
 
 :root {
---accent: 36, 90, 166; /* #245aa6 blue */
+--accent: 32, 160, 230; /* #245aa6 blue */
 --accent-off: 25, 65, 130; /* Darker blue */
 --dark: 0, 0, 0; /* Pure OLED black */
 --darkest: 0, 0, 0; /* Pure OLED black */
@@ -13,7 +13,7 @@
 --dark-apparent: 10, 15, 20; /* Dark blue-black */
 --white: 243, 242, 243;
 --white-off: 207, 221, 233;
---jade-green: 36, 90, 166; /* Blue instead of green */
+--jade-green: 52, 55, 56; /* Blue instead of green */
 --honey-yellow: 255, 194, 85;
 --cherry-red: 212, 51, 83;
 --rounding: 12px;
