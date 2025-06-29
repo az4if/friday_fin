@@ -114,12 +114,12 @@ color: rgb(var(--accent)) !important;
 
 /* FIXED BACKDROP STYLING */
 .backdropImage {
-filter: blur(6px) saturate(120%) contrast(120%) brightness(40%); /* Reduced blur */
+filter: blur(1px) saturate(120%) contrast(120%) brightness(50%); /* Reduced blur */
 }
 
 /* Media detail page backdrop specifically */
 #itemDetailPage .backdropImage {
-filter: blur(4px) saturate(120%) contrast(120%) brightness(40%); /* Even less blur for detail pages */
+filter: blur(6px) saturate(120%) contrast(120%) brightness(40%); /* Even less blur for detail pages */
 }
 
 .card.show-animation:focus>.cardBox {
