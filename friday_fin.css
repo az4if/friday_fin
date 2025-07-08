@@ -2168,7 +2168,7 @@ opacity: 1;
 
 /* Remove media title completely */
 .detailPagePrimaryContainer .itemName {
-display: none !important;
+display: block !important;
 }
 
 /* Push down elements below title on desktop */
