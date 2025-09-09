@@ -4,7 +4,6 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css'); 
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_corner.css');
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap);
-@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css');
 
 :root {
   --accent: 29, 152, 216;       /* #1d98d8 -> rgb(29,152,216) */
@@ -1309,7 +1308,7 @@ margin-bottom: 1.2em !important;
 }
 
 #loginPage {
-background: url(https://i.imgur.com/NzrSCuv.png) !important;
+background: url(https://github.com/az4if/ZestyJelly/blob/main/images/login-wallpapers/stylish-blue.png) !important;
 /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
 background-size: cover !important;
 }
