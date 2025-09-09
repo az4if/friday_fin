@@ -37,35 +37,37 @@
     backdrop-filter: blur(10px);
     padding: 20px 30px !important;
     margin: 100px auto 20px auto !important;
+    border: 2px solid rgba(var(--accent), 0.8);
     border-radius: var(--rounding-large);
     width: 300px !important;
     min-height: auto !important;
 }
 
-#loginPage::before {
-    content: "";
-    display: block;
-    background: url('https://i.postimg.cc/25KqQc52/image.png') no-repeat center center;
-    background-size: contain;
-    height: 80px;
-    width: 100%;
-    position: absolute;
-    top: 20px;
-    left: 0;
-}
-
-#loginPage .readOnlyContent,
-#loginPage form {
-    max-width: 100% !important;
+/* Background repeat (instead of no-repeat) */
+#loginPage {
+    background: url('https://i.postimg.cc/NFqPMvWX/background-3.jpg') repeat center center fixed !important;
+    background-size: cover !important;
     padding: 0 !important;
+    margin: 0 !important;
+    min-height: 100vh !important;
 }
 
-#loginPage .inputContainer {
-    margin-bottom: 15px !important;
+/* Input boxes (username + password) */
+#loginPage input[type="text"],
+#loginPage input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid rgba(var(--accent), 0.8);  /* Always show border */
+    border-radius: var(--rounding);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(var(--white));
+    outline: none;
 }
 
-#loginPage .btnSubmit {
-    margin-top: 10px !important;
+/* Optional: hover effect (slightly brighter border) */
+#loginPage input[type="text"]:hover,
+#loginPage input[type="password"]:hover {
+    border-color: rgb(var(--accent));
 }
 
 /* Elements with blue accent */
