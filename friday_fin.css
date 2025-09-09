@@ -8,19 +8,64 @@
 :root {
   --accent: 29, 152, 216;       /* #1d98d8 -> rgb(29,152,216) */
   --accent-off: 139, 105, 200;  /* #8b69c8 -> rgb(139,105,200) */
---dark: 0, 0, 0; /* Pure OLED black */
---darkest: 0, 0, 0; /* Pure OLED black */
---dark-highlight: 15, 20, 30;/* Dark blue-black */
---dark-apparent: 10, 15, 20; /* Dark blue-black */
---white: 243, 242, 243;
---white-off: 207, 221, 233;
---jade-green: 52, 55, 56; /* Blue instead of green */
---honey-yellow: 255, 194, 85;
---cherry-red: 212, 51, 83;
---rounding: 12px;
---rounding-alt: 9px;
---rounding-large: 24px;
---rounding-circle: 100px;
+  --dark: 0, 0, 0; /* Pure OLED black */
+  --darkest: 0, 0, 0; /* Pure OLED black */
+  --dark-highlight: 15, 20, 30;/* Dark blue-black */
+  --dark-apparent: 10, 15, 20; /* Dark blue-black */
+  --white: 243, 242, 243;
+  --white-off: 207, 221, 233;
+  --jade-green: 52, 55, 56; /* Blue instead of green */
+  --honey-yellow: 255, 194, 85;
+  --cherry-red: 212, 51, 83;
+  --rounding: 12px;
+  --rounding-alt: 9px;
+  --rounding-large: 24px;
+  --rounding-circle: 100px;
+}
+
+/* Login page adjustments */
+#loginPage {
+    background: url('https://i.postimg.cc/vTJ8Tk36/wallpapersden-com-abstract-lines-hd-cool-1920x1080.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 100vh !important;
+}
+
+#loginPage .padded-left.padded-right.padded-bottom-page {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05)) !important;
+    backdrop-filter: blur(10px);
+    padding: 20px 30px !important;
+    margin: 100px auto 20px auto !important;
+    border-radius: var(--rounding-large);
+    width: 300px !important;
+    min-height: auto !important;
+}
+
+#loginPage::before {
+    content: "";
+    display: block;
+    background: url('https://i.postimg.cc/25KqQc52/image.png') no-repeat center center;
+    background-size: contain;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#loginPage .readOnlyContent,
+#loginPage form {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+#loginPage .inputContainer {
+    margin-bottom: 15px !important;
+}
+
+#loginPage .btnSubmit {
+    margin-top: 10px !important;
 }
 
 /* Elements with blue accent */
@@ -1308,7 +1353,7 @@ margin-bottom: 1.2em !important;
 }
 
 #loginPage {
-background: url(https://i.imgur.com/9vL4iNf.png) !important;
+background: url(https://github.com/az4if/ZestyJelly/blob/main/images/login-wallpapers/stylish-blue.png) !important;
 /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
 background-size: cover !important;
 }
