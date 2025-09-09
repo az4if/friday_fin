@@ -25,7 +25,7 @@
 
 /* Login page adjustments */
 #loginPage {
-    background: url('https://i.postimg.cc/vTJ8Tk36/wallpapersden-com-abstract-lines-hd-cool-1920x1080.jpg') no-repeat center center fixed !important;
+    background: url('https://i.postimg.cc/NFqPMvWX/background-3.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -45,7 +45,7 @@
 #loginPage::before {
     content: "";
     display: block;
-    background: url('https://i.postimg.cc/25KqQc52/image.png') no-repeat center center;
+    background: url('https://i.postimg.cc/NFqPMvWX/background-3.jpg') no-repeat center center;
     background-size: contain;
     height: 80px;
     width: 100%;
