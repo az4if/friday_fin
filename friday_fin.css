@@ -7,8 +7,8 @@
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css');
 
 :root {
---accent: 32, 160, 230; /* #245aa6 blue */
---accent-off: 25, 65, 130; /* Darker blue */
+  --accent: 29, 152, 216;       /* #1d98d8 -> rgb(29,152,216) */
+  --accent-off: 139, 105, 200;  /* #8b69c8 -> rgb(139,105,200) */
 --dark: 0, 0, 0; /* Pure OLED black */
 --darkest: 0, 0, 0; /* Pure OLED black */
 --dark-highlight: 15, 20, 30;/* Dark blue-black */
