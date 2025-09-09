@@ -84,6 +84,19 @@ background-color: rgba(var(--darkest), 0.95) !important;
 background: rgba(15, 25, 40, 0.85) !important; /* Dark blue */
 }
 
+/*login logo*/
+#loginPage::before {
+    content: "";
+    display: block;
+    background: url('https://i.postimg.cc/xdfLYfg7/image.png') no-repeat center center;
+    background-size: contain;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
 /* Card overlays */
 .cardOverlayContainer {
 background: rgba(var(--accent-off), 0.3) !important;
@@ -1241,10 +1254,17 @@ margin-bottom: 1.2em !important;
 }
 
 #loginPage {
-background: url(https://i.postimg.cc/vTJ8Tk36/wallpapersden-com-abstract-lines-hd-cool-1920x1080.jpg) !important;
+background: url(https://i.postimg.cc/3RDVhQKs/2139350.jpg) !important;
 /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
-background-size: cover !important;
+background-size: auto !important; /* keeps the original size for repeating */
+padding: 0;
+margin: 0;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
 
 #loginPage .pageTitleWithDefaultLogo {
 display: none !important;
