@@ -1193,6 +1193,73 @@ margin-top: -4em;
 }
 }
 
+/* Dashboard sidebar from 10.9.x */
+.css-4yt2of {
+    background-color: rgb(var(--darkest));
+    color: rgb(var(--accent));
+}
+
+.css-37qkju {
+    color: inherit;
+}
+
+.css-54jp7k {
+    color: inherit;
+}
+
+.css-139vfv2 {
+    background-color: rgba(var(--darkest),1);
+    color: rgb(var(--accent));
+    background-image: linear-gradient(rgba(var(--dark-highlight), 0.3), rgba(var(--dark-highlight), 0.3));
+}
+
+#server-subheader,
+#devices-subheader, 
+#livetv-subheader,
+#advanced-subheader,
+#plugins-subheader {
+    color: rgba(var(--accent),0.7);
+}
+
+.css-17c09up {
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
+
+.css-17c09up.Mui-selected {
+    background-color: rgba(var(--accent), 1) !important;
+    color: rgb(var(--darkest)) !important;
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
+
+.css-17c09up:hover,
+.css-17c09up.Mui-selected:hover {
+    background-color: rgba(var(--accent), 0.85) !important;
+    color: rgb(var(--darkest)) !important;
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
+
+.css-1ip8vbj {
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
+
+.css-1ip8vbj.Mui-selected {
+    background-color: rgba(var(--accent), 1);
+    color: rgb(var(--darkest));
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
+
+.css-1ip8vbj:hover,
+.css-1ip8vbj.Mui-selected:hover {
+    background-color: rgba(var(--accent), 0.85) !important;
+    color: rgb(var(--darkest)) !important;
+    border-radius: var(--rounding);
+    margin: 0.35em;
+}
 .missingIndicator,
 .unairedIndicator {
 background: #AAAAAA;
@@ -2203,71 +2270,4 @@ top: 2.5em !important;
 /* Ensure buttons stay aligned */
 .mainDetailButtons {
 margin-top: 1.5em !important;
-}
-/* Dashboard sidebar from 10.9.x */
-.css-4yt2of {
-    background-color: rgb(var(--darkest));
-    color: rgb(var(--accent));
-}
-
-.css-37qkju {
-    color: inherit;
-}
-
-.css-54jp7k {
-    color: inherit;
-}
-
-.css-139vfv2 {
-    background-color: rgba(var(--darkest),1);
-    color: rgb(var(--accent));
-    background-image: linear-gradient(rgba(var(--dark-highlight), 0.3), rgba(var(--dark-highlight), 0.3));
-}
-
-#server-subheader,
-#devices-subheader, 
-#livetv-subheader,
-#advanced-subheader,
-#plugins-subheader {
-    color: rgba(var(--accent),0.7);
-}
-
-.css-17c09up {
-    border-radius: var(--rounding);
-    margin: 0.35em;
-}
-
-.css-17c09up.Mui-selected {
-    background-color: rgba(var(--accent), 1) !important;
-    color: rgb(var(--darkest)) !important;
-    border-radius: var(--rounding);
-    margin: 0.35em;
-}
-
-.css-17c09up:hover,
-.css-17c09up.Mui-selected:hover {
-    background-color: rgba(var(--accent), 0.85) !important;
-    color: rgb(var(--darkest)) !important;
-    border-radius: var(--rounding);
-    margin: 0.35em;
-}
-
-.css-1ip8vbj {
-    border-radius: var(--rounding);
-    margin: 0.35em;
-}
-
-.css-1ip8vbj.Mui-selected {
-    background-color: rgba(var(--accent), 1);
-    color: rgb(var(--darkest));
-    border-radius: var(--rounding);
-    margin: 0.35em;
-}
-
-.css-1ip8vbj:hover,
-.css-1ip8vbj.Mui-selected:hover {
-    background-color: rgba(var(--accent), 0.85) !important;
-    color: rgb(var(--darkest)) !important;
-    border-radius: var(--rounding);
-    margin: 0.35em;
 }
