@@ -2040,8 +2040,7 @@ margin-top: 1.5em;
 border-radius: 2em;
 background-color: rgb(var(--white));
 color: rgb(var(--darkest)) !important;
-margin-right: 2.7em !important;
-border-radius: 14px !important;
+border-radius: 30px !important;
 }
 
 .layout-mobile .btnPlay::after {
