@@ -258,8 +258,7 @@ background-color: transparent;
 border-radius: 2em;
 background-color: rgb(var(--white));
 color: rgb(var(--darkest)) !important;
-margin-right: 3vw !important;
-border-radius: 14px !important;
+border-radius: 30px !important;
 }
 
 .layout-desktop .btnPlay:hover {
