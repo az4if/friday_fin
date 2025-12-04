@@ -1,0 +1,76 @@
+@import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie_revived.css);
+@import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/amazon-prime.css);
+@import url('https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie-min-git.css');
+@import url('https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/mobile-alt-layout-v2.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
+
+:root {
+    --accent: 29, 152, 216;       /* #1d98d8 -> rgb(29,152,216) */
+    --accent-off: 139, 105, 200;  /* #8b69c8 -> rgb(139,105,200) */
+}
+
+/* ========================= */
+/* LOGIN PAGE FIXES           */
+/* ========================= */
+#loginPage {
+    overflow-y: auto !important;
+    height: 100vh !important;
+    display: block !important;
+    padding-top: 120px; /* space for logo */
+}
+
+/* Login logo (scrolls with page now) */
+#loginPage::before {
+    content: "";
+    display: block;
+    background: url('https://i.postimg.cc/xdfLYfg7/image.png') no-repeat center center;
+    background-size: contain;
+    height: 80px;
+    width: 100%;
+    position: relative !important; /* changed from absolute */
+    top: 0 !important;
+    margin-bottom: 20px;
+}
+
+/* ========================= */
+/* CAST & SCENES FIXES        */
+/* ========================= */
+
+/* Cast and scene cards */
+.chapterCard .innerCardFooter {
+    background: rgba(10, 15, 25, 0.8) !important;
+    color: rgb(var(--accent)) !important;
+}
+
+.layout-desktop .btnPlay:hover {
+    background-color: rgba(var(--accent));
+    color: rgb(var(--darkest)) !important;
+}
+
+.layout-desktop .btnPlay::after {
+    content: attr(title);
+    margin: 1px 11px 0 2px;
+    color: rgba(var(--darkest));
+}
+
+/* Resize CAST properly */
+.layout-desktop #castContent .card.overflowPortraitCard {
+    font-size: 90% !important;
+    width: 8.6em !important;
+}
+
+/* Actually shrink cast images */
+#castContent .card.overflowPortraitCard img {
+    width: 70% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.layout-tv #castContent .card.overflowPortraitCard {
+    font-size: 90% !important;
+    width: 13em !important;
+    margin-left: -1.6vw !important;
+    height: 30vh;
+}
