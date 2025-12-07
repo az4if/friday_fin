@@ -10,7 +10,7 @@ or,
 ```
 
 ## Note:
-#Tested on Jellyfin v10.11.x
+Tested on Jellyfin v10.11.x
 
 To ensure the theme displays correctly, make sure Backdrops are enabled on every device you intend to use. Without it, the appearance may break.
 
