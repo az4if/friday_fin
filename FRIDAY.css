@@ -1,7 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
 
-
-/* Cast and scene cards */
 .chapterCard .innerCardFooter {
     background: rgba(10, 15, 25, 0.8) !important;
     color: rgb(var(--accent)) !important;
@@ -24,7 +22,6 @@
     width: 8.6em !important;
 }
 
-/* Actually shrink cast images */
 #castContent .card.overflowPortraitCard img {
     width: 70% !important;
     height: auto !important;
