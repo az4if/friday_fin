@@ -1,6 +1,27 @@
 @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
 
-/* Actually shrink cast images */
+.chapterCard .innerCardFooter {
+    background: rgba(10, 15, 25, 0.8) !important;
+    color: rgb(var(--accent)) !important;
+}
+
+.layout-desktop .btnPlay:hover {
+    background-color: rgba(var(--accent));
+    color: rgb(var(--darkest)) !important;
+}
+
+.layout-desktop .btnPlay::after {
+    content: attr(title);
+    margin: 1px 11px 0 2px;
+    color: rgba(var(--darkest));
+}
+
+/* Resize CAST properly */
+.layout-desktop #castContent .card.overflowPortraitCard {
+    font-size: 90% !important;
+    width: 8.6em !important;
+}
+
 #castContent .card.overflowPortraitCard img {
     width: 70% !important;
     height: auto !important;
